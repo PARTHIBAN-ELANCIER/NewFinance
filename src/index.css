@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+td {
+  text-align: left;
+  border-right: 1px solid black;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+button {
+  width: '100px';
+}

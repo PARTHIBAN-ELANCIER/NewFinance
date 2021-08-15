@@ -89,3 +89,5 @@
     </td>
 </tr>
 </table>
+
+backgroundImage: `url(back.jpg)`,

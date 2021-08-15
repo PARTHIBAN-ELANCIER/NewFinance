@@ -97,10 +97,6 @@ class AboutUs extends Component {
                     </div>
                 </div>
                 <Advertisement />
-                <div style={{width:'150px',height:'120px',marginLeft:'10%',marginTop:'5%'}}>
-                    <div>May I help you</div>
-                    <HeadsetMicIcon style={{fontSize:'100px',textAlign:'left'}} />
-                </div>
                 <Footer />
             </React.Fragment>
           );

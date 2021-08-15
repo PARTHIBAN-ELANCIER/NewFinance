@@ -35,42 +35,47 @@ class LifePoliciesPlans extends Component {
                         <Button variant="contained" style={{backgroundColor:'#C400FF', height:'40px',borderRadius:'51px',marginLeft:'43%',width:'250px'}}><FavoriteIcon />Life Policies</Button>
                     </div>  
                     <div style={{marginTop:'2%',display:'flex',fontSize:'26px',textAlign:'center'}}>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'5%'}} onClick={()=>this.props.history.push('/TeamInsurance')}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'5%',borderRadius:'21px'}} onClick={()=>{
+                                window.scrollTo({
+                                top: 0,
+                                behavior: "smooth"
+                            });
+                            this.props.history.push('/TeamInsurance')}}>
                             <p>Team Insurance</p>
                             <AssignmentIcon style={{fontSize:'80px',marginTop:'12%'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Team Insurance with return of premium</p>
                             <MonetizationOnOutlinedIcon style={{fontSize:'80px'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Unit Linked Insurance Plan</p>
                             <ReceiptOutlinedIcon style={{fontSize:'80px'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Endowment Plans</p>
                             <AssignmentOutlinedIcon style={{fontSize:'80px',marginTop:'12%'}}/>
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>MoneyBack Policy</p>
                             <GroupWorkTwoToneIcon style={{fontSize:'80px',marginTop:'12%'}} />
                         </Card>
                     </div>
 
                     <div style={{marginTop:'2%',display:'flex',fontSize:'26px',textAlign:'center'}}>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'5%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'5%',borderRadius:'21px'}}>
                             <p>Whole Life Insurance</p>
                             <SecurityOutlinedIcon style={{fontSize:'80px',marginTop:'12%'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Group Life Insurance</p>
                             <AssignmentOutlinedIcon style={{fontSize:'80px',marginTop:'12%'}}/>
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Child Insurance Plans</p>
                             <AccountBalanceOutlinedIcon style={{fontSize:'80px',marginTop:'12%'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Retirement Plans</p>
                             <BeachAccessOutlinedIcon style={{fontSize:'80px',marginTop:'12%'}} />
                         </Card>
@@ -80,7 +85,12 @@ class LifePoliciesPlans extends Component {
                         <TextField label="Tell Us Who You Are !" style={{marginLeft:'44%',marginTop:'5%',width:'230px'}} />
                     </div>
                     <div>
-                        <Button variant="contained" style={{backgroundColor:'#C400FF', height:'40px',borderRadius:'51px',marginLeft:'43%',width:'250px', marginTop:'2%'}} onClick={this.NavNonLifePolicy} >Non Life Policies</Button>
+                        <Button variant="contained" style={{backgroundColor:'#C400FF', height:'40px',borderRadius:'51px',marginLeft:'43%',width:'250px', marginTop:'2%'}} onClick={()=>{
+                                window.scrollTo({
+                                top: 0,
+                                behavior: "smooth"
+                            });
+                            this.props.history.push('/NonLifePolicies')}}>Non Life Policies</Button>
                     </div>
 
                 </div>

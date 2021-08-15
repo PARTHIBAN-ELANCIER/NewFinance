@@ -12,13 +12,13 @@ class Advertisement extends Component {
                 <Card style={{width:'1200px',height:'300px', backgroundColor:'#787A91', marginLeft:'10%'}}>
                     <div style={{display:'flex'}}>
                     <Card style={{width:'267px', height:'250px',backgroundColor:'white',marginLeft:'100px',marginTop:'25px'}}>
-
+                        AD
                     </Card>
                     <Card style={{width:'267px', height:'250px',backgroundColor:'white',marginLeft:'100px',marginTop:'25px'}}>
-
+                        AD
                     </Card>
                     <Card style={{width:'267px', height:'250px',backgroundColor:'white',marginLeft:'100px',marginTop:'25px'}}>
-
+                        AD
                     </Card>
                     </div>
                 </Card>

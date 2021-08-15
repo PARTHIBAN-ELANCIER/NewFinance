@@ -6,32 +6,32 @@ class GetOurApp extends Component {
     }
     render() { 
         return ( 
-            <div style={{width:'100%',height:'500px ',textAlign:'left', display:'flex',color:'#53B8BB' , fontSize:'21px'}}>
+            <div style={{width:'100%',height:'500px ',textAlign:'left', display:'flex', fontSize:'21px'}}>
                 <div style={{width:'50%',marginLeft:'10%'}}>
-                    <div style={{fontSize:'30px'}}><u>Get Our App From</u></div>
-                    <div style={{display:"flex"}}>
+                    <div style={{fontSize:'26px'}}><u>Get Our App From</u></div>
+                    <div style={{display:"flex", marginTop:'2%'}}>
                         <div style={{width:"50%"}}>
-                            <img src="apple.png" style={{height:'120px', width:'70%'}} />
+                            <img src="applelogo.jpg" style={{height:'50px', width:'70%'}} />
                         </div>
                         <div style={{width:"50%"}}>
-                            <img src="gp.png" style={{height:'120px', width:'70%'}} />
+                            <img src="googlelogo.jpg" style={{height:'50px', width:'70%'}} />
                         </div>
                     </div>    
-                    <div>
+                    <div style={{fontSize:'21px'}}>
                         Get Control of all your insurance needs anywhere, anytime
                     </div>
-                    <div style={{marginTop:'5%'}}>
+                    <div style={{marginTop:'5%',fontSize:'21px'}}>
                         Compare different insurance policies
                     </div>
-                    <p>
+                    <p style={{fontSize:'21px'}}>
                         Buy, store and share all your polcies online
                     </p>
-                    <p>Track your policy status on the go</p>
-                    <p>Download your policy with a single tap</p>
+                    <p >Track your policy status on the go</p>
+                    <p >Download your policy with a single tap</p>
 
                 </div>
                 <div style={{width:'50%',height:'500px'}}>
-                    <img src="mbl.png" style={{height:'500px', width:'50%'}} />  
+                    <img src="mbl.png" style={{height:'400px', width:'40%'}} />  
                 </div>
             </div>
          );

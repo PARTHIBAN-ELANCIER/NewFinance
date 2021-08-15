@@ -12,6 +12,8 @@ class LifePolicies extends Component {
     render() { 
         return (  
             <React.Fragment>
+            <div style={{backgroundImage: `url(bghd.jpg)`,width:'100%',height:'2000px'}}>
+
                <div style={{width:'100%',height:'100px'}}>
                 <NewAppBar />
                </div>
@@ -26,6 +28,7 @@ class LifePolicies extends Component {
                </div>
                <div>
                    <Footer />
+               </div>
                </div>
             </React.Fragment>
         );

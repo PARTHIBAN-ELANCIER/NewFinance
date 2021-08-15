@@ -43,17 +43,17 @@ export default function NewAppBar() {
  console.log({windowWidth})
 
   return (
-    <div className={classes.root}>
-      <AppBar position="fixed" style={{backgroundColor:'white'}}>
+    <div className={classes.root} >
+      <AppBar position="fixed" style={{backgroundColor:'white' , color:'black'}}>
         <Toolbar style={{display:'flex'}}>
         <Box>
           <img src="payir.png" style={{width:'100px'}} />
         </Box>
-        <div style={{color:'black', marginLeft:'5%', width:'40%',display:'flex', fontSize:'36px'}}>
+        <div style={{color:'black', marginLeft:'5%', width:'40%',display:'flex', fontSize:'36px',color:'black'}}>
                 Astra Quark Life Insurance
         </div>
           
-            <div style={{width:'60%',display:'flex',justifyContent:'space-around' , cursor:'pointer', fontSize:'21px',color:'#B980F0'}}>
+            <div style={{width:'60%',display:'flex',justifyContent:'space-around' , cursor:'pointer', fontSize:'21px',color:'black'}}>
                 <div>
                           
               <Box p={1} onClick={()=>{

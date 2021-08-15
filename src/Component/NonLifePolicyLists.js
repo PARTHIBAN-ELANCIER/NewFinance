@@ -32,46 +32,46 @@ class NonLifePolicyLists extends Component {
                         <Button variant="contained" style={{backgroundColor:'#C400FF', height:'40px',borderRadius:'51px',marginLeft:'43%',width:'250px'}}><PoolSharpIcon />Non Life Policies</Button>
                     </div>  
                     <div style={{marginTop:'2%',display:'flex',fontSize:'26px',textAlign:'center'}}>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'5%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'5%',borderRadius:'21px'}}>
                             <p>Property Loss</p>
                             <HomeTwoToneIcon style={{fontSize:'80px',marginTop:'12%',color:'#2978B5'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Fire Insurance</p>
                             <WhatshotOutlinedIcon style={{fontSize:'80px',marginTop:'12%',color:'#FF5200'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Motor Insurance Plan</p>
                             <MotorcycleTwoToneIcon style={{fontSize:'80px',color:'#150E56',marginTop:'12%'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Commercial Insurance</p>
                             <MoneyOutlinedIcon style={{fontSize:'80px', color:'#D5ECC2'}}/>
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Pet Insurance</p>
                             <PetsIcon style={{fontSize:'80px',marginTop:'12%',color:'#FFE268'}} />
                         </Card>
                     </div>
 
                     <div style={{marginTop:'2%',display:'flex',fontSize:'26px',textAlign:'center'}}>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'5%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'5%',borderRadius:'21px'}}>
                             <p>Marine Insurance</p>
                             <DirectionsBoatIcon style={{fontSize:'80px',marginTop:'12%' , color:'#FFD880'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Employer Liability Insurance</p>
                             <PermIdentityIcon style={{fontSize:'80px', color:'#FDFFBC'}}/>
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Reinsurance </p>
                             <AccessibilityNewSharpIcon style={{fontSize:'80px',marginTop:'12%', color:'#1A508B'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Reenter Insurance</p>
                             <AccessibilityNewSharpIcon style={{fontSize:'80px',marginTop:'12%', color:'#00917C'}} />
                         </Card>
-                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%'}}>
+                        <Card style={{width:'250px',height:'200px',backgroundColor:'#F39189',marginLeft:'2%',borderRadius:'21px'}}>
                             <p>Professional Indeminty Insurance</p>
                             <VpnKeySharpIcon style={{fontSize:'80px',color:'#DDDDDD'}} />
                         </Card>
@@ -81,7 +81,12 @@ class NonLifePolicyLists extends Component {
                         <TextField label="Tell Us Who You Are !" style={{marginLeft:'44%',marginTop:'5%',width:'230px'}} />
                     </div>
                     <div>
-                        <Button variant="contained" style={{backgroundColor:'#C400FF', height:'40px',borderRadius:'51px',marginLeft:'43%',width:'250px', marginTop:'2%'}} onClick={this.NavLifePolicy}>Life Policies</Button>
+                        <Button variant="contained" style={{backgroundColor:'#C400FF', height:'40px',borderRadius:'51px',marginLeft:'43%',width:'250px', marginTop:'2%'}} onClick={()=>{
+                                window.scrollTo({
+                                top: 0,
+                                behavior: "smooth"
+                            });
+                            this.props.history.push('/LifePolicies')}}>Life Policies</Button>
                     </div>
 
                 </div>
